@@ -1,6 +1,6 @@
 class ApplicationController < ActionController::Base
   def directory
-    
+
     render({ :template => "people/index.html" })
   end
 
@@ -13,4 +13,11 @@ class ApplicationController < ActionController::Base
 
     render({ :template => "people/second_t.html" })
   end
+
+  def mattzmuda
+
+    render({ :template => "people/mattzmuda.html" })
+  end
+
+
 end
