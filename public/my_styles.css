@@ -1,0 +1,22 @@
+h1 {
+    font-size: 72px;
+    color: blue;
+  }
+
+  h2 {
+    color: green;
+    font-family: 'Liu Jian Mao Cao';
+  }
+
+  .special {
+    color: maroon;
+  }
+
+  .important {
+    text-decoration: underline;
+  }
+
+  .special_and_important {
+    color: maroon;
+    text-decoration: underline;
+  }

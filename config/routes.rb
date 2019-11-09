@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   match("/first_target", { :controller => "application", :action => "first", :via => "get" })
   match("/second_target", { :controller => "application", :action => "second", :via => "get" })
 
-
+  match("/raghubetina", { :controller => "application", :action => "raghu", :via => "get" })
 
 
 
